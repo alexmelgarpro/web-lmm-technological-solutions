@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  	<meta charset="UTF-8">
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!---Bootstrap css yo--->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+
+	<title>Proyecto</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&family=Poppins:wght@600;700&family=Rubik:wght@400;500&display=swap"
+    rel="stylesheet">
+</head>
+<body id="top">
+
+	<!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <div class="overlay" data-overlay></div>
+
+      <a href="#" class="logo">
+        <img src="./assets/images/logo.png" alt="Eduland logo">
+      </a>
+
+      <button class="menu-open-btn" data-menu-open-btn>
+        <ion-icon name="menu-outline"></ion-icon>
+      </button>
+
+      <nav class="navbar" data-navbar>
+
+        <button class="menu-close-btn" data-menu-close-btn>
+          <ion-icon name="close-outline"></ion-icon>
+        </button>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="">
+        </a>
+
+        <ul class="navbar-list">
+
+          <li>
+            <a href="index.html" class="navbar-link">Inicio</a>
+          </li>
+
+          <li>
+            <a href="Equipo.html" class="navbar-link">Equipo</a>
+          </li>
+
+          <li>
+            <a href="Proyecto.html" class="navbar-link">Proyecto</a>
+          </li>
+
+          <li>
+            <a href="Materiales.html" class="navbar-link">Materiales</a>
+          </li>
+
+          <li>
+            <a href="Contacto.html" class="navbar-link">Contacto</a>
+          </li>
+
+        </ul>
+
+        <button class="btn btn-secondary">Empezemos</button>
+
+      </nav>
+
+    </div>
+  </header>
+  
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/images/carrusel-proyecto/proyecto1.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/carrusel-proyecto/proyecto2.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="assets/images/carrusel-proyecto/proyecto3.png" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+<main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/imgProyecto/esp32CAM.PNG" alt="" height="650">
+            <center><p>Imagen Referencial</p></center>
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Cámara de seguridad con alarma</h1>
+
+            <p class="section-text">
+              Un detector de movimiento es un dispositivo electrónico equipado de sensores que responden a un movimiento físico. Se encuentran, generalmente, en sistemas de seguridad o en circuitos cerrados de televisión. El sistema puede estar compuesto, simplemente, por una cámara de vigilancia conectada a un ordenador, que se encarga de generar una señal de alarma o poner el sistema en estado de alerta cuando algo se mueve.
+
+              En la actualidad hay diferentes tipos de sistemas de alarmas para el hogar disponibles en el mercado, los cuales varían en el nivel de protección que ofrecen la o las empresas que los proporcionan.
+
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about">
+        <div class="container">
+
+          <figure class="about-banner">
+  
+            <img src="./assets/images/imgProyecto/objetivo.png" alt="Eduland students" class="about-img">
+
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 about-title">Objetivo</h2>
+
+            <p class="section-text">
+              El objetivo principal del proyecto es crear un sistema de seguridad que integre una cámara, y lograr adaptarlo a un microcontrolador (Esp32 CAM), la cual alerte y mande imágenes cuando hay alguien cerca y así uno pueda realizar sus tareas normalmente sin tener que estar pendiente de la cámara.
+              Construirlo desde cero y a su vez adquirir conocimiento sobre sus aplicaciones y adecuaciones a su entorno.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #HERO
+      -->
+
+
+      <section class="hero">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/imgProyecto/solucion.png" alt="A young lady sits, holding a pen and a notebook.">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Solucion a la Problematica</h1>
+
+            <p class="section-text">
+              Vigilar y proteger tanto a la persona como al inmueble que habita. Las alarmas son de interés especial para los diferentes tipos de personas o puedan encontrarse en otras situaciones, no necesariamente por asalto sino también por necesidades de supervisión por problemas de salud, en las que se requiera avisar para recibir asistencia urgente.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about">
+        <div class="container">
+
+          <figure class="about-banner">
+  
+            <img src="./assets/images/imgProyecto/proyectodiagrama1.png" alt="Eduland students" class="about-img">
+
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 about-title">Diagrama para conexión a la pc</h2>
+
+            <p class="section-text">
+              En este apartado, utilizaremos el esp32cam junto con el adaptador ft232 en la que este adaptador lo utilizaremos para conectar el esp a la computadora para programarlo
+
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #HERO
+      -->
+
+
+      <section class="hero">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/imgProyecto/proyectodiagrama2.png" alt="A young lady sits, holding a pen and a notebook.">
+          </figure>
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Diagrama del proyecto</h1>
+
+            <p class="section-text">
+              En este segundo diagrama, veremos que, una vez programado el esp32 se realizara una nueva conexión con la fuente de voltaje y el sensor de movimiento PIR.
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="about">
+        <div class="container">
+
+          <figure class="about-banner">
+  
+            <img src="./assets/images/imgProyecto/funcionamiento.png" alt="Eduland students" class="about-img">
+
+          </figure>
+
+          <div class="about-content">
+
+            <h2 class="h2 about-title">Funcionamiento</h2>
+
+            <p class="section-text">
+              Nuestro proyecto es una cámara con un sensor de movimiento en la que cada ves que detecte movimiento la cámara empezara a tomar imágenes alertándonos y enviándonos imágenes mediante Telegram.
+
+            </p>
+
+          </div>
+
+        </div>
+      </section>
+
+      
+
+      </article>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Eduland logo">
+          </a>
+
+          <p class="footer-text">
+            Escale profesionalmente el capital humano multifuncional y la tecnología extensiva.
+          </p>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-google"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        
+
+          <ul class="footer-list">
+
+            <li>
+              <p class="footer-link-title">Contacto</p>
+            </li>
+
+            <li class="contact-item">
+              <span>Telefono : </span>
+
+              <a href="tel:974696011" class="contact-link">974696011</a>
+            </li>
+
+            <li class="contact-item">
+              <span>Correo : </span>
+
+              <a href="mailto:example@gmail.com" class="contact-link">marcelo_panduro@usmp.pe</a>
+            </li>
+
+            <li class="contact-item">
+              <span>Dirección : </span>
+
+              <a href="#" class="contact-link">
+                <address>Lima - Peru</address>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+        <p class="copyright">
+          &copy; 2022 <a href="">LMM - Soluciones Tecnológicas</a>. Todos los derechos reservados
+        </p>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+
+
+    <!-- 
+      - custom js link
+    -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+      - ionicon link
+    -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!---Bootstrap opcion 1 popers yo--->
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+
+
+
+</body>
+</html>
